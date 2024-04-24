@@ -25,11 +25,14 @@ Content-Type: application/json
   "rate": 3
 }
 ###Actualizar una pelicula
-PATCH http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+PATCH http://localhost:1234/movies/c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf
 Content-Type: application/json
 
 {
   "id": "123",
   "title": "Hola",
-  "year": 1990
+  "year": 1992
 }
+
+### Borrar una pelicula
+DELETE http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
